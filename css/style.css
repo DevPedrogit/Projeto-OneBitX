@@ -21,7 +21,7 @@
 .arrowDown {
   display: inline-block;
   width: 90px;
-  margin-top: 5px;
+  margin-top: 60px;
 }
 
 .logoPc {
@@ -32,6 +32,7 @@
 
 #button {
   padding: 15px 35px;
+  border: 2px solid #fff;
 }
 
 .footer {
@@ -88,22 +89,29 @@
 
 .shortTitle {
   width: 550px;
-  margin-bottom: -25px;
+  margin-bottom: 15px;
 }
 
 .mediumTitle {
   width: 650px;
-  margin-bottom: -25px;
+  margin-bottom: 15px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 760px) {
   .titlePadding {
     padding-top: 120px;
   }
   .shortTitle,
   .mediumTitle {
     width: auto;
-    font-size: 50px;
+    font-size: 40px;
+  }
+}
+@media (max-width: 380px) {
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 32px;
   }
 }
 
