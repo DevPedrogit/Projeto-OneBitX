@@ -67,3 +67,10 @@
         font-size: 10px;
     }
 }
+
+@media (max-width: 350px) {
+    .logoPc {
+        width: 150px;
+        margin-top: 15px;
+    }
+}
