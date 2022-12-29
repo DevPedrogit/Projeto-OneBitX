@@ -27,6 +27,10 @@
   margin-right: 20px;
 }
 
+#button {
+  padding: 15px 35px;
+}
+
 .container00.container01 {
   background-image: url(../../images/home/01.jpg);
 }
