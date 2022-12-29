@@ -31,13 +31,27 @@
   background-image: url(../../images/home/01.jpg);
 }
 .container00.container02 {
-  background-image: url(../../images/home/02.gif);
+  background-image: url(../../images/home/03.jpg);
 }
 .container00.container03 {
-  background-image: url(../../images/home/03.jpg);
+  background-image: url(../../images/home/02.gif);
 }
 .container00.container04 {
   background-image: url(../../images/home/04.jpg);
+}
+
+.titlePadding {
+  padding-top: 200px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: -25px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: -25px;
 }
 
 /*# sourceMappingURL=style.css.map */
