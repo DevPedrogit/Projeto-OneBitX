@@ -31,6 +31,26 @@
   padding: 15px 35px;
 }
 
+.footer {
+  background-color: #000;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+.footer .copyOBC {
+  color: #555252;
+}
+
 .container00.container01 {
   background-image: url(../../images/home/01.jpg);
 }

@@ -25,3 +25,26 @@
 #button {
     padding: $padding-button;
 }
+
+.footer {
+    background-color: #000;
+    height: 15vh;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+
+        &:hover {
+            color: $link-hover;
+        }
+    }
+
+    .copyOBC {
+        color: $copy-color;
+    }
+}
